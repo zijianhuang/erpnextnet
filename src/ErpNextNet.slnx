@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Fonlow.ErpNext.Abstract/Fonlow.ErpNext.Abstract.csproj" />
+  <Project Path="Fonlow.ErpNext.CrmModels/Fonlow.ErpNext.CrmModels.csproj" />
+  <Project Path="Fonlow.ErpNext.Models/Fonlow.ErpNext.Models.csproj" />
+  <Project Path="Fonlow.ErpNext/Fonlow.ErpNext.csproj" />
+  <Project Path="Fonlow.ErpNextAsp/Fonlow.ErpNextAsp.csproj" />
+</Solution>

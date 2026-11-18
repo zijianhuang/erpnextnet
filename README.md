@@ -1,0 +1,1 @@
+﻿Helper classes for ERPNext integration with .NET

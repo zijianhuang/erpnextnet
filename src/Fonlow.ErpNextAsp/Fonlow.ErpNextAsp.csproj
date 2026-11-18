@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Authors>Zijian Huang</Authors>
+		<Copyright>Copyright © Zijian Huang $([System.DateTime]::Now.Year)</Copyright>
+		<PackageProjectUrl>https://github.com/zijianhuang/erpnextnet</PackageProjectUrl>
+		<PackageTags>.NET</PackageTags>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<Version>1.0</Version>
+		<Description>ErpNext.NET common helper functions for calling ErpNext in ASP.NET</Description>
+		<RepositoryUrl>https://github.com/zijianhuang/erpnextnet</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AnalysisLevel>latest-all</AnalysisLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.13" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.13" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.14" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Fonlow.ErpNext\Fonlow.ErpNext.csproj" />
+	</ItemGroup>
+
+</Project>

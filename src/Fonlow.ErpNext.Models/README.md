@@ -1,0 +1,1 @@
+﻿ErpNext.NET common abstract and base types.
