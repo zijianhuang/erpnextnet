@@ -21,6 +21,13 @@
 	<ItemGroup>
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+		<CopyDebugSymbolFilesFromPackages>true</CopyDebugSymbolFilesFromPackages>
+		<CopyDocumentationFilesFromPackages>true</CopyDocumentationFilesFromPackages>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Fonlow.ErpNext.Abstract\Fonlow.ErpNext.Abstract.csproj" />
